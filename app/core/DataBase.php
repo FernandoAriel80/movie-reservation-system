@@ -5,11 +5,19 @@ use PDO;
 use PDOException;
 class DataBase
 {
+    private $db_name;
+    private $db_host;
+    private $db_user;
+    private $db_password;
 
-    private $db_name = "prueba_home";
-    private $db_host = "127.0.0.1";
-    private $db_user = "root";
-    private $db_password = "";
+    public function __construct(){
+        $config = require __DIR__ . '/../../config/serve.php';
+
+        $this->db_name = $config['db']['name']; 
+        $this->db_host = $config['db']['host']; 
+        $this->db_user = $config['db']['user']; 
+        $this->db_password = $config['db']['pass']; 
+    }
 
     public function getConnection()
     {

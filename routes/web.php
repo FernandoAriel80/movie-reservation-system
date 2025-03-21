@@ -12,10 +12,9 @@ function result()
         $db = new DataBase();
         $conn = $db->getConnection();
 
-        $stmt = $conn->prepare("select * from users");
-       // $stmt->exec()
-       $stmt->execute();
-       return $stmt->fetchAll(PDO::FETCH_ASSOC);
+        $stmt = $conn->query("select * from users");
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
     } catch (\Throwable $th) {
         throw $th;
     }
@@ -25,6 +24,7 @@ if ($request_url == "/") {
     //echo "hola desde home";
 
     $users =  result();
+    //print_r(result());
 
     include "../views/home.php";
 } else {

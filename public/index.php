@@ -1,6 +1,4 @@
 <?php 
 
 include_once  '../autoload.php';
-//require_once  './routes/web.php';
-
-echo "hola php";
+include_once  '../routes/web.php';

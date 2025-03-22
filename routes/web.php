@@ -10,8 +10,8 @@ function result()
 
         $db = new DataBase();
         $conn = $db->getConnection();
-
-        $stmt = $conn->prepare("select * from users");
+        
+        $stmt = $conn->query("select * from users");
        if ($stmt->execute()) {
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
        }

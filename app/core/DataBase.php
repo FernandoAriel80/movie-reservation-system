@@ -12,7 +12,7 @@ class DataBase
     private $db_port;
 
     public function __construct(){
-        $config = require __DIR__ . '../../config/serve.php';
+        $config = require __DIR__ . '/../../config/serve.php';
         // Obtener variables de entorno
         $this->db_name = $config['db']['name']; 
         $this->db_host = $config['db']['host']; 

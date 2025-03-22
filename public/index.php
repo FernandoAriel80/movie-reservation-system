@@ -1,4 +1,4 @@
 <?php 
 
-include_once  '../autoload.php';
-include_once  '../routes/web.php';
+require_once __DIR__ .'/../autoload.php';
+require_once __DIR__ .'/../routes/web.php';

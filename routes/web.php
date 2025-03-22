@@ -1,7 +1,6 @@
 <?php
 
 use App\Core\DataBase;
-//use PDO;
 
 $request_url =  explode("?", $_SERVER["REQUEST_URI"])[0];
 
@@ -12,9 +11,10 @@ function result()
         $db = new DataBase();
         $conn = $db->getConnection();
 
-        $stmt = $conn->query("select * from users");
-        $stmt->execute();
+        $stmt = $conn->prepare("select * from users");
+       if ($stmt->execute()) {
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
+       }
     } catch (\Throwable $th) {
         throw $th;
     }

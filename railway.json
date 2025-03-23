@@ -1,0 +1,10 @@
+{
+    "build": {
+        "commands": [
+            "composer install --no-dev --optimize-autoloader"
+        ]
+    },
+    "deploy": {
+        "startCommand": "apachectl -D FOREGROUND"
+    }
+}

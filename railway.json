@@ -1,7 +1,7 @@
 {
     "build": {
         "commands": [
-            "composer install --no-dev --optimize-autoloader"
+            "composer install --no-dev --optimize-autoloader && composer dump-autoload"
         ]
     },
     "deploy": {

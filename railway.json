@@ -5,6 +5,6 @@
         ]
     },
     "deploy": {
-        "startCommand": "php-fpm -D && nginx -g 'daemon off;'"
+        "startCommand": "php-fpm --fpm-config php-fpm.conf && nginx -g 'daemon off;'"
       }
 }

@@ -7,5 +7,3 @@
 *.env
 
 public/.htaccess
-nginx.conf
-php-fpm.conf

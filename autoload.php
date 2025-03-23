@@ -2,10 +2,10 @@
 
 // Cargar el archivo .env
 require_once __DIR__ . '/vendor/autoload.php'; // Asegúrate de que el autoload de Composer esté incluido
-use Dotenv\Dotenv;
+/* use Dotenv\Dotenv;
 
 $dotenv = Dotenv::createImmutable(__DIR__);
-$dotenv->load();
+$dotenv->load(); */
 
 
 //require_once __DIR__ . '/vendor/autoload.php'; 

@@ -1,6 +1,20 @@
 {
+    "name": "orellana-geier/movie-reservation-system",
+    "description": "Proyecto de pagina web para reservar entradas de cine.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Franco Geier",
+            "email": "francoyogeier@gmail.com"
+        },
+        {
+            "name": "Orellana Fernando",
+            "email": "fernandoarieldb95@gmail.com"
+        }
+    ],
     "require": {
-        "vlucas/phpdotenv": "^5.6"
+        "vlucas/phpdotenv": "^5.6",
+        "phpmailer/phpmailer": "^6.9"
     },
     "autoload": {
         "psr-4": {

@@ -26,7 +26,9 @@ if ($request_url == "/") {
     $users =  result();
     //print_r(result());
 
-    include "../views/home.php";
+    include "../resources/views/home.php";
+}elseif($request_url == "/ejemplo"){
+    include "../resources/views/ejemplo.php";
 } else {
     echo "ruta no existe";
 }

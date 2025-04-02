@@ -1,0 +1,69 @@
+:root{
+    --blanco:#ffffff;
+    --negro: #000;
+    --font:"Montserrat", sans-serif;
+    --title-font: 900;
+    --bold-font:600;
+    --light: 400;
+    --background: #f1f1f1;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: var(--background);
+}
+
+/* Un rem es igual a 10px */
+
+body{
+    font-family: var(--font);
+    font-optical-sizing: auto;
+    font-weight:var(--light);
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+h1,h2,h3,h4{
+    font-weight: var(--title-font);
+    text-align: center;
+}
+p{
+    font-weight: 600;
+}
+
+.container{
+    margin: 0 auto;
+    width: 85%;
+    max-width: 120rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+/* header{
+    border: green solid;
+}
+.navbar{
+    border: #000 solid;
+   
+}
+.container{
+    border: blue solid ;
+}
+footer{
+    border: red solid ;
+} */

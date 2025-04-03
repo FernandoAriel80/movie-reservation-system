@@ -8,6 +8,27 @@
     --background: #f1f1f1;
 }
 
+/* posibles paleta de colores
+:root {
+    --primary: #D81F26; // Rojo vibrante 
+    --secondary: #1C1C1C;  // Gris oscuro 
+    --accent: #FFC107; // Amarillo dorado 
+    --neutral: #F5F5F5; // Blanco suave 
+    --alternative: #0A1F44; // Azul profundo 
+}
+*/
+/*
+Primario (Rojo fuerte - Acción principal) → #EA2424
+
+Secundario (Gris oscuro - Texto y fondo suave) → #333333
+
+Neutro (Blanco - Espacios y contraste) → #FFFFFF
+
+Acento (Amarillo cálido - Resaltar detalles) → #FFC107
+
+Fondo (Gris claro - Suaviza el diseño) → #F1F1F1
+ */
+
 html{
     font-size: 62.5%;
     background-color: var(--background);
@@ -53,17 +74,58 @@ ul{
 
 img{
     width: 100%;
+    height: auto;
 }
-/* header{
-    border: green solid;
+/* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    padding: 1.5rem 0;
+    background-color: var(--blanco);
 }
-.navbar{
-    border: #000 solid;
-   
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blanco);
+    padding: 0.5rem; /* Reducimos el padding */
+    height: 5rem; /* Altura más pequeña */
 }
-.container{
-    border: blue solid ;
+
+nav ul {
+    display: flex;
+    gap: 1rem; /* Espacio más pequeño entre elementos */
+    flex-wrap: wrap;
+    justify-content: center;
 }
-footer{
-    border: red solid ;
-} */
+
+nav ul li {
+    font-size: 1.4rem; /* Texto más pequeño */
+    padding: 0.3rem 0.8rem;
+}
+
+nav ul li a {
+    color: var(--negro);
+    font-weight: var(--bold-font);
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: var(--primary);
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    padding: 2rem;
+    background-color: var(--blanco);
+    font-size: 1.4rem;
+}
+

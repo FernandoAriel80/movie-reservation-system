@@ -16,4 +16,6 @@
     <?php if (!empty($page_style)) : ?>
         <link rel="stylesheet" href="/css/<?php echo $page_style; ?>.css">
     <?php endif; ?>
+
+    
 </head>

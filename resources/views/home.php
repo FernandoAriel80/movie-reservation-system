@@ -1,5 +1,6 @@
 <?php
 $title = "Inicio"; //titulo de la vista
+$description = "Página principal de Tu Cine"; //descripcion de la pagina actual
 $page_style = "home"; //nombre del archivo .css que queres que se ejecute para esta vista
 
 include __DIR__ . '/layouts/header.php';

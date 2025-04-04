@@ -1,6 +1,6 @@
 :root {
     --white: #ffffff;
-    --black: #000;
+    --black: #000000;
     --font: "Montserrat", sans-serif;
     --title-font: 900;
     --bold-font: 600;
@@ -9,8 +9,8 @@
     --letters: #E7E7E7;
     --primary: #5D5D5D;
     --secondary: #454545;
-    --hover: #FFC107;
     --third: #E7E7E7;
+    --hover: #FFC107;
 
     --neutral: #F5F5F5;
     --alternative: #0A1F44;
@@ -31,13 +31,13 @@ Acento (Amarillo cálido - Resaltar detalles) → #FFC107
 Fondo (Gris claro - Suaviza el diseño) → #F1F1F1
  */
 
+
+/* Globales */
 html {
-    font-size: 62.5%;
+    font-size: 62.5%;  /* Un rem es igual a 10px */
     background-color: var(--background);
     color: var(--letters);
 }
-
-/* Un rem es igual a 10px */
 
 body {
     font-family: var(--font);
@@ -61,14 +61,7 @@ h4 {
 }
 
 p {
-    font-weight: 600;
-}
-
-.container {
-    margin: 0 auto;
-    width: 85%;
-    max-width: 120rem;
-    background-color: var(--primary);
+    font-weight: var(--bold-font);
 }
 
 a {
@@ -82,10 +75,11 @@ ul {
     padding: 0;
 }
 
-img {
+img, picture {
     width: 100%;
     height: auto;
 }
+
 
 /* HEADER */
 header {
@@ -217,4 +211,12 @@ footer div ul {
         color: var(--hover);
      } */
 
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 85%;
+    max-width: 120rem;
+    background-color: var(--primary);
 }

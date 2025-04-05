@@ -29,7 +29,7 @@ include __DIR__ . '/layouts/header.php';
     </section>
 
     <section>
-        <h3> HOLA SOY HOME</h3>
+        <h1>HOLA SOY HOME</h1>
     </section>
 
     <section>

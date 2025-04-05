@@ -8,7 +8,7 @@
                 <h3>Logo</h3>
             </div>
             <div>
-                <button><a href="http://"> menu</a></button>
+                <button><a href="#"> menu</a></button>
             </div>
             <div>
                 <span onclick="openHeaderMenu()" class="header-mobile-menu-button" style="font-size: 24px; cursor: pointer;">&#9776;</span>

@@ -39,30 +39,53 @@ include __DIR__ . '/layouts/header.php';
         <?php endforeach; ?>
     </section>
     <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor sint enim vel consequatur iure aspernatur! Modi officiis aut sint debitis, vel inventore, quisquam hic repellendus soluta tempora nesciunt esse.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Dolore dolor sint enim vel consequatur iure aspernatur!
+        Modi officiis aut sint debitis, vel inventore, quisquam
+        hic repellendus soluta tempora nesciunt esse.</p>
     </section>
     <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor sint enim vel consequatur iure aspernatur! Modi officiis aut sint debitis, vel inventore, quisquam hic repellendus soluta tempora nesciunt esse. quisquam hic repellendus soluta tempora nesciunt esse.quisquam hic repellendus soluta tempora nesciunt esse.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Dolore dolor sint enim vel consequatur iure aspernatur!
+        Modi officiis aut sint debitis, vel inventore, quisquam
+        hic repellendus soluta tempora nesciunt esse.</p>
     </section>
     <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor sint enim vel consequatur iure aspernatur! Modi officiis aut sint debitis, vel inventore, quisquam hic repellendus soluta tempora nesciunt esse. quisquam hic repellendus soluta tempora nesciunt esse.quisquam hic repellendus soluta tempora nesciunt esse.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Dolore dolor sint enim vel consequatur iure aspernatur!
+        Modi officiis aut sint debitis, vel inventore, quisquam
+        hic repellendus soluta tempora nesciunt esse.</p>
     </section>
     <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor sint enim vel consequatur iure aspernatur! Modi officiis aut sint debitis, vel inventore, quisquam hic repellendus soluta tempora nesciunt esse. quisquam hic repellendus soluta tempora nesciunt esse.quisquam hic repellendus soluta tempora nesciunt esse.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Dolore dolor sint enim vel consequatur iure aspernatur!
+        Modi officiis aut sint debitis, vel inventore, quisquam
+        hic repellendus soluta tempora nesciunt esse.</p>
     </section>
     <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor sint enim vel consequatur iure aspernatur! Modi officiis aut sint debitis, vel inventore, quisquam hic repellendus soluta tempora nesciunt esse. quisquam hic repellendus soluta tempora nesciunt esse.quisquam hic repellendus soluta tempora nesciunt esse.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Dolore dolor sint enim vel consequatur iure aspernatur!
+        Modi officiis aut sint debitis, vel inventore, quisquam
+        hic repellendus soluta tempora nesciunt esse.</p>
     </section>
     <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor sint enim vel consequatur iure aspernatur! Modi officiis aut sint debitis, vel inventore, quisquam hic repellendus soluta tempora nesciunt esse. quisquam hic repellendus soluta tempora nesciunt esse.quisquam hic repellendus soluta tempora nesciunt esse.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Dolore dolor sint enim vel consequatur iure aspernatur!
+        Modi officiis aut sint debitis, vel inventore, quisquam
+        hic repellendus soluta tempora nesciunt esse.</p>
     </section>
     <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor sint enim vel consequatur iure aspernatur! Modi officiis aut sint debitis, vel inventore, quisquam hic repellendus soluta tempora nesciunt esse. quisquam hic repellendus soluta tempora nesciunt esse.quisquam hic repellendus soluta tempora nesciunt esse.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Dolore dolor sint enim vel consequatur iure aspernatur!
+        Modi officiis aut sint debitis, vel inventore, quisquam
+        hic repellendus soluta tempora nesciunt esse.</p>
     </section>
     <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor sint enim vel consequatur iure aspernatur! Modi officiis aut sint debitis, vel inventore, quisquam hic repellendus soluta tempora nesciunt esse. quisquam hic repellendus soluta tempora nesciunt esse.quisquam hic repellendus soluta tempora nesciunt esse.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Dolore dolor sint enim vel consequatur iure aspernatur!
+        Modi officiis aut sint debitis, vel inventore, quisquam
+        hic repellendus soluta tempora nesciunt esse.</p>
     </section>
-
 </div>
 
 <!-- Para codigo js que se use en home -->
